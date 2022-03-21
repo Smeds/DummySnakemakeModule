@@ -9,4 +9,4 @@ min_version("6.10")
 configfile: "config.yaml"
 
 
-validate(config, schema="../schemas/config.schema.yaml")
+validate(config, schema="../schemsas/config.schema.yaml")
