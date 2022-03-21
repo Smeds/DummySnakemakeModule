@@ -1,0 +1,8 @@
+from snakemake.utils import min_version
+
+include: "rules/common.smk"
+include: "rules/rule1.smk"
+
+rule all:
+    input:
+        "test.txt"
